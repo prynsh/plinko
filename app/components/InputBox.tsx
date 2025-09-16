@@ -13,7 +13,7 @@ export default function InputBox({label,placeholder,onChange,value}:Input) {
     return (
         <div>
             <div className='text-black'>{label}</div>
-            <div className='bg-black rounded-lg w-1/6'>
+            <div className='bg-black rounded-lg w-64'>
                 <div className='text-white p-2'>
                     <input className='border-none w-full'  placeholder={placeholder} onChange={onChange} value={value}></input>
                 </div>
