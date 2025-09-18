@@ -4,6 +4,7 @@ import InputBox from "./components/InputBox";
 import { useState } from "react";
 import {Dropdown} from "./components/DropDown";
 import Game from "./components/Game";
+import Canvas from "./components/Canvas";
 
 export default function Home() {
   const [amount,setAmount]= useState("")
@@ -40,7 +41,8 @@ export default function Home() {
       </div>
       </div>
       <div>
-        <Game/>
+        {/* <Game/> */}
+        <Canvas/>
       </div>
       </div>
     </div>
